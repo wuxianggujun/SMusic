@@ -32,9 +32,9 @@ public class HomeFragment extends BaseFragment {
 
                 @Override
                 public void onClick(View view) {
-                    NavController navController = Navigation.findNavController(view);
+                   /* NavController navController = Navigation.findNavController(view);
                     navController.navigate(R.id.nav_mine);
-
+*/
                 }
             });
     }
