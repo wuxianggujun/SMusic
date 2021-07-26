@@ -6,7 +6,7 @@
     tools:context=".MainActivity">
     
     <include
-        layout="@layout/content_main"
+        layout="@layout/app_bar_main"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
       
@@ -16,6 +16,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="0dp"
         android:layout_marginEnd="0dp"
+        app:itemIconTint="@drawable/bottomview_selector_main"
+        app:itemTextColor="@drawable/bottomview_selector_main"
         android:background="?android:attr/windowBackground"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
